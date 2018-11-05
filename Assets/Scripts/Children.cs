@@ -31,7 +31,7 @@ public class Children : MonoBehaviour {
            // Destroy(gameObject);
         }
 
-        if ((gameObject.transform.position - teacher.transform.position).magnitude < 0.5f && gameObject.name == targetChild.text) {
+        if ((gameObject.transform.position - teacher.transform.position).magnitude < 0.5f && gameObject.name == Teacher.Instance.nameOfChild) {
             transform.SetParent(teacher.transform);
             //gameObject.SetActive(false);
             Teacher.Instance.childPicked = true;

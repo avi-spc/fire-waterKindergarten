@@ -142,11 +142,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 72679439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b020afd2cc4e6428d4023d21e6c3c2, type: 3}
+  m_Script: {fileID: 11500000, guid: d261479ec20824746b791562a683e1db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teacher: {fileID: 584580398}
-  targetChild: {fileID: 1371088143}
 --- !u!195 &72679441
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -565,8 +564,8 @@ GameObject:
   - component: {fileID: 584580403}
   - component: {fileID: 584580402}
   - component: {fileID: 584580401}
-  - component: {fileID: 584580400}
   - component: {fileID: 584580399}
+  - component: {fileID: 584580400}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -597,10 +596,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 584580398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17bc690340972c24fbc45ae7deb6644c, type: 3}
+  m_Script: {fileID: 11500000, guid: b05e4ad997b0ce1429a5311c74630b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetChild: {fileID: 1371088143}
   childPicked: 0
   nameOfChild: 
 --- !u!195 &584580401
@@ -968,11 +966,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1193017534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b020afd2cc4e6428d4023d21e6c3c2, type: 3}
+  m_Script: {fileID: 11500000, guid: d261479ec20824746b791562a683e1db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teacher: {fileID: 584580398}
-  targetChild: {fileID: 1371088143}
 --- !u!195 &1193017536
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1242,11 +1239,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1505605237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b020afd2cc4e6428d4023d21e6c3c2, type: 3}
+  m_Script: {fileID: 11500000, guid: d261479ec20824746b791562a683e1db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teacher: {fileID: 584580398}
-  targetChild: {fileID: 1371088143}
 --- !u!195 &1505605239
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1567,11 +1563,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1630113885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b020afd2cc4e6428d4023d21e6c3c2, type: 3}
+  m_Script: {fileID: 11500000, guid: d261479ec20824746b791562a683e1db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teacher: {fileID: 584580398}
-  targetChild: {fileID: 1371088143}
 --- !u!1 &1816580447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,7 +1643,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 584580400}
+      - m_Target: {fileID: 0}
         m_MethodName: Follow
         m_Mode: 1
         m_Arguments:
@@ -1724,11 +1719,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1931878065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b020afd2cc4e6428d4023d21e6c3c2, type: 3}
+  m_Script: {fileID: 11500000, guid: d261479ec20824746b791562a683e1db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teacher: {fileID: 584580398}
-  targetChild: {fileID: 1371088143}
 --- !u!195 &1931878067
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2091,11 +2085,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2036097367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b020afd2cc4e6428d4023d21e6c3c2, type: 3}
+  m_Script: {fileID: 11500000, guid: d261479ec20824746b791562a683e1db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teacher: {fileID: 584580398}
-  targetChild: {fileID: 1371088143}
 --- !u!195 &2036097369
 NavMeshAgent:
   m_ObjectHideFlags: 0
